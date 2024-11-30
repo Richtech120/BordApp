@@ -1,0 +1,165 @@
+h4{
+    font-size: 20px;
+    display: flex;
+    font-weight: 1000
+}
+.span{
+    align-self: baseline;
+    font-size: 10px;
+}
+.side-nav{
+    width: 27%;
+    border-right: 1px solid rgb(187, 186, 186);
+    padding: 20px;
+}
+/* code rom chatgpt */
+/* SideNav.css */
+.side-nav {
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #f8f9fa; /* Example background color */
+    border-right: 1px solid #ddd; /* Optional border */
+  }
+  
+  /* Custom scrollbar styling (optional) */
+  .side-nav::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .side-nav::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar color */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .side-nav::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color on hover */
+  }
+  
+  .side-nav::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Track background */
+  }
+
+  /* end of code */
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container .faMinusSquare{
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo-container .logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo .faFlipboard{
+    font-size: 40px;
+    color: #373FDB;
+    margin-right: 10px;
+}
+.btn1{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid rgb(187, 186, 186);
+    background: #F4F5F7;
+}
+.btn1:hover{
+    background: rgb(235, 231, 235);
+    transition: 0.5s;
+}
+.btn1 .btn-text{
+    text-align: center;
+    margin-right: 70px;
+    font-size: 12px;
+}
+.btn1 .faAirbnb{
+    font-size: 30px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+button .faArrowAltCircleUp{
+    font-size: 20px;
+}
+.main-menu-container{
+    height: 53vh;
+    width: 100%;
+}
+.main-menu-container .p{
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.main-menu-container .menu{
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    align-items: center;
+    padding: 2px 18px 2px;
+    gap: 3px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #686B74;
+}
+.main-menu-container .menu:hover{
+    background: #EEF0FD;
+    border: 1px solid rgb(187, 186, 186);
+    color: #3C41BF;
+}
+.main-menu-container .menu .menu-icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.main-menu-container .main-menu .menu p{
+    font-size: 13px;
+}
+.department-container .p{
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.department-container .plus-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.department-container .plus-container .faPlusSquare{
+    font-size: 25px;    
+    cursor: pointer;
+}
+.department-container .department .dpm{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.department-container .department .dpm p{
+    margin-left: 20px;
+}
+.department-container .department .dpm .sq1{
+    background: #3F3FF3;
+}
+.department-container .department .dpm .sq2{
+    background: #0DA979;
+}
+.department-container .department .dpm .sq3{
+    background: #FFA50A;
+}
+.department-container .department .dpm .sq4{
+    background: #8F3BEF;
+}
+.department-container .department .dpm .sq5{
+    background: #447DD7;
+}

@@ -1,0 +1,86 @@
+.right-component{
+    margin-top: 30px;
+    width: 73%;
+}
+.right-component form{
+    display: flex;
+    width: 50%;
+    position: relative;
+    left: 30px;
+}
+.right-component input{
+    padding: 10px 30px;
+    width: 180%;
+    padding-left: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(187, 186, 186);
+    height: 6vh;
+
+}
+.right-component input::placeholder{
+    color: #686B74;
+    font-size: 15px;
+}
+.right-component form .btn2{
+    width: 50px;
+    position: absolute;
+    left: 88%;
+    height: 4.5vh;
+    bottom: 4.5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px 1px;
+    border: 1px solid rgb(187, 186, 186);
+    
+}
+.right-component form .faSearchengin{
+    font-size: 23px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.right-component .design-container{
+    margin-top: 20px;
+    width: 100%;
+    background: #F4F5F7;
+    height: 20vh;
+    padding: 30px 30px;
+    border: 1px solid rgb(187, 186, 186);
+}
+.right-component .design-container .faChevronLeft{
+    margin-right: 10px;
+}
+.right-component .design-container .btn3{
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #686B74;
+    cursor: pointer;
+}
+.right-component .design-container h1{
+    margin-top: 20px;
+}
+.right-component .candidates-container .designers{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(187, 186, 186);
+    height: 7vh;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+.right-component .candidates-container .designers p{
+    margin-left: 7px;
+}
+.designers .job,
+.designers .can {
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.designers .active {
+    border-bottom: 2px solid blue;
+}
